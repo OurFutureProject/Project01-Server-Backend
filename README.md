@@ -6,7 +6,9 @@ Place holder for Project 01
 
 ## Installation
 
-    TBD
+        sudo pip install Flask
+        clone this repo
+        python run_server.py
 
 ## API
 
