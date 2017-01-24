@@ -48,7 +48,7 @@ def create_user(username, password):
     if username in user_list:
         return 'EFAULT'
     user_list[username] = password
-    with open("storage/User.json", "w") as file:
+    with open("storage/User.json", "a") as file:
         file.write(username + " " + password)
     return 'EOK'
 
